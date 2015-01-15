@@ -6,4 +6,5 @@ git reset --hard
 git add --all
 #update all tracked files
 git add -u
-
+#copy remote branch into local
+git checkout --track origin/myBranchName
