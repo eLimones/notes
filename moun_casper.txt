@@ -1,0 +1,22 @@
+#The presisten memory in a ubuntu flash intall is stored in a file called
+#casper-rw
+
+#find the casper-rw file ussually is on	/media/USERNAME/UUI/casper-rw
+
+#to mount the file system on a already running linux machine
+sudo mount -o loop /path/to/casper-rw /mnt
+
+#to mount the file system on another folder
+sudo mount -o loop /path/to/casper-rw /path/to/mount/folder
+
+#to unmount the file system 
+#Fisrt look form file system name with
+df
+#the output may look like this  
+#/dev/loop0       4055872  955152   2891364  25% /mnt
+#where /dev/loop0 is the file system name	
+#second
+sudo umount fileSystemName
+
+
+

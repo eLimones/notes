@@ -1,0 +1,10 @@
+to change the current keyboard lenguage configuration use
+
+sudo loadkeys [lan]
+
+************************
+lan options
+
+us	english (us)
+es 	espanish (spain)
+latam	espanish (latin american)

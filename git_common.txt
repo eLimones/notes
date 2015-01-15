@@ -1,0 +1,9 @@
+#delete all untracked files
+git clean -f
+#undo all uncommited changes
+git reset --hard
+#add all files to state
+git add --all
+#update all tracked files
+git add -u
+
