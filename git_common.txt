@@ -10,3 +10,10 @@ git add -u
 git log -p
 #show diff stats in log 
 git log --stat
+#copy remote branch into local
+git checkout --track origin/myBranchName
+#create a new branch fromm a no head commit
+git checkout -b new_branch_name
+#checkout to the <n>-th commit before head
+git checkout branch_name~<n>
+
