@@ -6,4 +6,7 @@ git reset --hard
 git add --all
 #update all tracked files
 git add -u
-
+#show diff in log 
+git log -p
+#show diff stats in log 
+git log --stat
